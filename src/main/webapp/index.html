@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <title>My Groovy Angular App!</title>
+
+        <!-- Grooscript libraries -->
+        <script type="text/javascript" src="js/lib/grooscript.min.js"></script>
+        <script type="text/javascript" src="js/lib/grooscript-tools.js"></script>
+
+        <!-- Angular libraries -->
+        <script type="text/javascript" src="js/lib/angular.min.js"></script>
+        <script type="text/javascript" src="js/lib/angular-resource.min.js"></script>
+        <script type="text/javascript" src="js/lib/angular-route.min.js"></script>
+
+        <!-- Application libraries -->
+        <script src="js/app/AngularModule.js"></script>
+        <script src="js/app/Services.js"></script>
+        <script src="js/app/Controllers.js"></script>
+        <script src="js/app/Application.js"></script>
+    </head>
+
+    <body>
+
+        <main ng-view>Main view placeholder</main>
+
+        <!-- Initialize the application  -->
+        <script type="text/javascript">
+            new Services().init()
+            new Controllers().init()
+            new Application().init()
+        </script>
+    </body>
+</html>
