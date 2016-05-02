@@ -8,6 +8,6 @@ Then checkout this repository and in the root folder run ``gradle convert`` to c
 
 Once you have converted the Groovy files into Javascript you can open the application by opening the index.html file inside the src/main/webapp/ folder.
 
-This example is part of the blog post at http://devsoap.com/#!/Writing-AngularJS-applications-in-Groovy
+This example is part of the blog post at http://devsoap.com/writing-angularjs-applications-in-groovy/
 
 Enjoy!
